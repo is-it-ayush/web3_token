@@ -4,9 +4,9 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract LawdeKaToken is ERC20 {
+contract CoolTokenName is ERC20 {
 
-    constructor(uint256 initialSupply) ERC20("LawdeKaToken", "LAWDA") {
+    constructor(uint256 initialSupply) ERC20("AYUSH", "A") {
         _mint(msg.sender, initialSupply);
     }
 }
